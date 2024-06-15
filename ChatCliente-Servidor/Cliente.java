@@ -7,8 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import Ejercicio7.MyDiscoveryListener;
-
 /** DESCUBRIMIENTO DE SERVICIOS **/
 public class Cliente {
     static int SERVICE_NAME_ATTRID = 0x0100;
