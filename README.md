@@ -1,5 +1,5 @@
 # Programacion_Bluetooth
-En este repositorio se pretende enseñar algunos ejemplos de programación en Java de aplicaciones sobre Bluetooth utilizando la API BlueCove.
+En este repositorio se pretende enseñar algunos ejemplos de programación en Java de aplicaciones sobre Bluetooth utilizando la API BlueCove (proporcionada en el proyecto en un archivo .jar).
 
 Cada carpeta tendrá el readme con su explicación correspondiente.
 
@@ -7,22 +7,12 @@ Pretendo mostrar dos ejemplos:
 1. Descubrimiento de dispositivos y servicios
 2. Comunicación cliente/servidor mediante Bluetooth
 
-Los outputs esperados para estos ejemplos son los siguientes.
-
-### Descubrimiento de servicios
-Para el descubrimiento, en mi caso particular tengo lo siguiente:
-![Logo](Descubrimiento_Servicios/Descubrimiento.png)
-
-En el que el programa encuentra dos dispositivos, mi teléfono y mis auriculares inalámbricos.
-
-Para los auriculares no se encuentran servicios concretos en la foto, mientras que en el teléfono se detectan 
-servicios de audio y control remoto, junto a sus URLs de conexión.
-
 # Introducción a la pila Bluetooth
+
+Antes de presentar los resultados de estos dos ejemplos, voy a introducir algunos aspectos importantes de la pila de protocolos Bluetooth para este proyecto.
 
 La pila de protocolos Bluetooth es esencial para la comunicación y el descubrimiento de dispositivos y servicios.
 
-A continuación voy a introducir algunos aspectos importantes de la pila de protocolos Bluetooth para este proyecto.
 
 La pila estructura de la pila de protocolos es la siguiente:
 ![Logo](PilaBluetooth.png)
@@ -45,6 +35,19 @@ Los componentes clave relevantes para este proyecto son los siguientes:
     - **Uso**: Crucial para la comunicación en aplicaciones cliente-servidor.
 
 
+
+## Outputs esperados
+Ya que este proyecto depende de la pila de protocolos bluetooth, ya introducidos estos aspectos,
+voy a enseñar el resultado esperado de los códigos proporcionados
+
+### Descubrimiento de servicios
+Para el descubrimiento, en mi caso particular tengo lo siguiente:
+![Logo](Descubrimiento_Servicios/Descubrimiento.png)
+
+En el que el programa encuentra dos dispositivos, mi teléfono y mis auriculares inalámbricos.
+
+Para los auriculares no se encuentran servicios concretos en la foto, mientras que en el teléfono se detectan 
+servicios de audio y control remoto, junto a sus URLs de conexión.
 
 # Comunicación cliente/servidor mediante Bluetooth
 ### Punto de vista del cliente:
