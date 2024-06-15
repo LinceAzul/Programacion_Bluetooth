@@ -18,6 +18,33 @@ En el que el programa encuentra dos dispositivos, mi teléfono y mis auriculares
 Para los auriculares no se encuentran servicios concretos en la foto, mientras que en el teléfono se detectan 
 servicios de audio y control remoto, junto a sus URLs de conexión.
 
+# Introducción a la pila Bluetooth
+
+La pila de protocolos Bluetooth es esencial para la comunicación y el descubrimiento de dispositivos y servicios.
+
+A continuación voy a introducir algunos aspectos importantes de la pila de protocolos Bluetooth para este proyecto.
+
+La pila estructura de la pila de protocolos es la siguiente:
+![Logo](PilaBluetooth.png)
+
+### Componentes clave
+
+Los componentes clave relevantes para este proyecto son los siguientes:
+
+1. **SDP (Service Discovery Protocol)**
+    - **Función**: Permite descubrir los servicios disponibles en otros dispositivos Bluetooth.
+    - **Proceso**: Utiliza PDU (Protocol Data Units) para consultas y respuestas, proporcionando información sobre servicios disponibles y parámetros de conexión.
+    - **Resultado**: Devuelve la URL del servicio para establecer conexiones.
+
+2. **L2CAP (Logical Link Control and Adaptation Protocol)**
+    - **Función**: Multiplexación de datos, segmentación y reensamblaje, y manejo de calidad de servicio (QoS).
+    - **Ubicación**: Actúa como capa intermedia entre niveles superiores (como SDP) y niveles inferiores (como el controlador Bluetooth).
+
+3. **RFCOMM (Radio Frequency Communication)**
+    - **Función**: Emulación de puertos serie para transmisión de datos entre dispositivos Bluetooth.
+    - **Uso**: Crucial para la comunicación en aplicaciones cliente-servidor.
+
+
 
 # Comunicación cliente/servidor mediante Bluetooth
 ### Punto de vista del cliente:
