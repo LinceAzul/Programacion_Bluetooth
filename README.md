@@ -11,7 +11,7 @@ Los outputs esperados para estos ejemplos son los siguientes.
 
 ### Descubrimiento de servicios
 Para el descubrimiento, en mi caso particular tengo lo siguiente:
-![Logo](Miscellaneous/Descubrimiento.png)
+![Logo](Descubrimiento_Servicios/Descubrimiento.png)
 
 En el que el programa encuentra dos dispositivos, mi teléfono y mis auriculares inalámbricos.
 
