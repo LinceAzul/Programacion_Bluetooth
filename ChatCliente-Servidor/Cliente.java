@@ -1,5 +1,3 @@
-package Ejercicio7;
-
 import javax.bluetooth.*;
 import javax.microedition.io.Connector;
 import javax.microedition.io.StreamConnection;
